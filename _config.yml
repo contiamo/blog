@@ -10,21 +10,19 @@
 ############################
 
 # Name of website
-title: My Website
+title: Contiamo Blog
 
 # Your name to show in the footer
-author: Some Person
+author: Contiamo
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Us: "about"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Contiamo Website: "https://contiamo.com"
 
 ################
 # --- Logo --- #
@@ -49,16 +47,12 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "info@contiamo.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  github: contiamo
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: contiamo
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -79,7 +73,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: The Contiamo Tech Blog
 
 ###########################
 # --- General options --- #
@@ -87,9 +81,10 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
+  github: true
   vk: false
 
 # How to display the link to your website in the footer
@@ -125,17 +120,28 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+# navbar-col: "#EAEAEA"
+# navbar-text-col: "#404040"
+# navbar-border-col: "#DDDDDD"
+# page-col: "#FFFFFF"
+# text-col: "#404040"
+# link-col: "#008AFF"
+# hover-col: "#0085A1"
+# footer-col: "#EAEAEA"
+# footer-text-col: "#777777"
+# footer-link-col: "#404040"
+# footer-hover-col: "#0085A1"
+
+navbar-col: "#3a4e7a"
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#2c3e5c"
+text-col: "#2c3e5c"
+link-col: "#FFFFFF"
+hover-col: "#D5E5FB"
+footer-col: "#3a4e7a"
+footer-text-col: "#FFFFFF"
+footer-link-col: "#FFFFFF"
+footer-hover-col: "#D5E5FB"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -247,7 +253,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
